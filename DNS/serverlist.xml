@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDNS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DNS>
+    <Name>censurfridns.dk</Name>
+    <PrimaryIP>89.233.43.71</PrimaryIP>
+    <SecondaryIP>91.239.100.100</SecondaryIP>
+  </DNS>
+  <DNS>
+    <Name>Comodo Secure DNS</Name>
+    <PrimaryIP>8.26.56.26</PrimaryIP>
+    <SecondaryIP>8.20.247.20</SecondaryIP>
+  </DNS>
+  <DNS>
+    <Name>DNS Advantage</Name>
+    <PrimaryIP>156.154.70.1</PrimaryIP>
+    <SecondaryIP>156.154.71.1</SecondaryIP>
+  </DNS>
+  <DNS>
+    <Name>DNS.WATCH</Name>
+    <PrimaryIP>84.200.69.80</PrimaryIP>
+    <SecondaryIP>84.200.70.40</SecondaryIP>
+  </DNS>
+  <DNS>
+    <Name>Dyn</Name>
+    <PrimaryIP>216.146.35.35</PrimaryIP>
+    <SecondaryIP>216.146.36.36</SecondaryIP>
+  </DNS>
+  <DNS>
+    <Name>FreeDNS</Name>
+    <PrimaryIP>37.235.1.174</PrimaryIP>
+    <SecondaryIP>37.235.1.177</SecondaryIP>
+  </DNS>
+  <DNS>
+    <Name>Google</Name>
+    <PrimaryIP>8.8.8.8</PrimaryIP>
+    <SecondaryIP>8.8.4.4</SecondaryIP>
+  </DNS>
+  <DNS>
+    <Name>GreenTeamDNS</Name>
+    <PrimaryIP>81.218.119.11</PrimaryIP>
+    <SecondaryIP>209.88.198.133</SecondaryIP>
+  </DNS>
+  <DNS>
+    <Name>Hurricane Electric</Name>
+    <PrimaryIP>74.82.42.42</PrimaryIP>
+  </DNS>
+  <DNS>
+    <Name>Level3</Name>
+    <PrimaryIP>209.244.0.3</PrimaryIP>
+    <SecondaryIP>209.244.0.4</SecondaryIP>
+  </DNS>
+  <DNS>
+    <Name>Norton ConnectSafe</Name>
+    <PrimaryIP>199.85.126.10</PrimaryIP>
+    <SecondaryIP>199.85.127.10</SecondaryIP>
+  </DNS>
+  <DNS>
+    <Name>OpenDNS Home</Name>
+    <PrimaryIP>208.67.222.222</PrimaryIP>
+    <SecondaryIP>208.67.220.220</SecondaryIP>
+  </DNS>
+  <DNS>
+    <Name>OpenNIC</Name>
+    <PrimaryIP>107.150.40.234</PrimaryIP>
+    <SecondaryIP>50.116.23.211</SecondaryIP>
+  </DNS>
+  <DNS>
+    <Name>puntCAT</Name>
+    <PrimaryIP>109.69.8.51</PrimaryIP>
+  </DNS>
+  <DNS>
+    <Name>SafeDNS</Name>
+    <PrimaryIP>195.46.39.39</PrimaryIP>
+    <SecondaryIP>195.46.39.40</SecondaryIP>
+  </DNS>
+  <DNS>
+    <Name>SmartViper</Name>
+    <PrimaryIP>208.76.50.50</PrimaryIP>
+    <SecondaryIP>208.76.51.51</SecondaryIP>
+  </DNS>
+</ArrayOfDNS>
