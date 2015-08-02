@@ -48,7 +48,7 @@ namespace DNS
 
         public static void Update()
         {
-            String url = ConfigurationManager.AppSettings["api_url"];
+            String url = Config.Get("api_url");
             var httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
             httpWebRequest.Method = "GET";
 
@@ -61,20 +61,35 @@ namespace DNS
                     ServerInstance.ServerList = (List<DNS>)js.Deserialize(objText, typeof(List<DNS>));
                 }
             }
+
+            Save();
         }
 
-        public static bool TryLoadServers()
+        public static bool TryLoad()
         {
-            String file = ConfigurationManager.AppSettings["servers_file"];
-            return false;
+            try
+            {
+                Load();
+                return false;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
 
-        public static void SaveServers()
+        private static void Load(){
+            String filename = Config.Get("servers_file");
+        }
+
+        private static void Save()
         {
-            string filename = ConfigurationManager.AppSettings["servers_file"];
-            XmlSerializer x = new XmlSerializer(typeof(List<DNS>));
-            TextWriter writer = new StreamWriter(filename);
-            x.Serialize(writer, ServerInstance.ServerList);
+            string filename = Config.Get("servers_file");
+            using (TextWriter writer = new StreamWriter(filename))
+            {
+                XmlSerializer x = new XmlSerializer(typeof(List<DNS>));
+                x.Serialize(writer, ServerInstance.ServerList);
+            }
         }
     }
 }
